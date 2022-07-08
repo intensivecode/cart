@@ -14,7 +14,7 @@ class Product extends Component {
       <div className="m-2">
         <span className={this.getBadgeClasses()}>{this.formatQuantity()}</span>
         <button onClick={this.handleIncrement} className="btn btn-primary">
-          Increment
+          Inc
         </button>
       </div>
     );
